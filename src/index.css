@@ -34,8 +34,6 @@ body {
   font-family: 'Inter', sans-serif;
   background-color: var(--bg);
   color: var(--text);
-  /* -webkit-font-smoothing: antialiased; */
-  /* -moz-osx-font-smoothing: grayscale; */
 }
 
 body, input, textarea, button {
@@ -49,4 +47,14 @@ button {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+/* App */
+.container {
+  height: 100vh;
+  max-width: 992px;
+  margin: 0 auto;
+  padding: 2.5rem 2rem;
+  display: flex;
+  flex-direction: column;
 }
